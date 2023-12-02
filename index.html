@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 11</title>
+</head>
+
+<body style="background-color: antiquewhite; margin-left: 50px;">
+    <marquee>
+        <h1>CCO-118500 Muhammad Abdul Mustafa Qadri</h1>
+    </marquee>
+    <h2
+        style="color: aliceblue; background-color: brown; box-shadow: 5px 5px rgb(83, 43, 43); padding: 20px; width: 300px; margin-left: 50px; border-radius: 50px;">
+        Javascrip String Methods</h2>
+    <h3>1.Length</h3>
+
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var a = str.length;
+
+        document.write(a)
+    </script>
+    <h3>Tolowercase()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var c = str.toLowerCase();
+
+        document.write(c)
+    </script>
+    <h3>ToUppercase()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var d = str.toUpperCase();
+
+        document.write(d)
+    </script>
+
+    <h3>Includes()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var e = str.includes("sit");
+
+        document.write(e)
+    </script>
+    <br>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var f = str.includes("goo");
+
+        document.write(f)
+    </script>
+    <h3>Startwith()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var g = str.startsWith("sit");
+
+        document.write(g)
+    </script>
+    <br>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var h = str.startsWith("Lo");
+
+        document.write(h)
+    </script>
+    <h3>Endswith()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var k = str.endsWith("sit");
+
+        document.write(k)
+    </script>
+    <br>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var l = str.endsWith("elit");
+
+        document.write(l)
+    </script>
+    <h3>Search()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+        var m = str.search("sit");
+
+        document.write(m)
+    </script>
+    <h3>Match()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var n = str.match(/it/g);
+
+        document.write(n)
+    </script>
+    <h3>Indexof()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var o = str.indexOf("it");
+
+        document.write(o)
+    </script>
+    <h3>LastIndexof()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var p = str.lastIndexOf("it");
+
+        document.write(p)
+    </script>
+    <h3>Replace()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var q = str.replace("Lorem", "Loreeeem");
+
+        document.write(q)
+    </script>
+    <h3>Trim()</h3>
+    <script>
+        var str = "Lorem '  '    ipsum  ' '   dolor     sit        amet consectetur it adipisicing elit";
+        var r = str.trim();
+
+        document.write(r)
+    </script>
+    <h3>charAt()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var s = str.charAt(2);
+
+        document.write(s)
+    </script>
+    <h3>charCodeAt()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var t = str.charCodeAt(2);
+
+        document.write(t)
+    </script>
+    <h3>fromcharCode()</h3>
+    <script>
+        // var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit ";
+        var u = String.fromCharCode(65);
+
+        document.write(u)
+    </script>
+    <h3>concat()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var str2="helo";
+        var str3="world";
+        var v = str.concat(str2,str3);
+
+        document.write(v)
+    </script>
+    <h3>split()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var w = str.split(" ");
+
+        document.write(w)
+    </script>
+    <h3>Repeate()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var x = str.repeat(5);
+
+        document.write(x)
+    </script>
+    <h3>slice()</h3>
+    <script>
+        var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+        var y = str.slice(2,5);
+
+        document.write(y)
+    </script>
+     <h3>substr()</h3>
+     <script>
+         var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+         var z = str.substr(2,8);
+ 
+         document.write(z)
+     </script>
+      <h3>substring()</h3>
+      <script>
+          var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+          var a = str.substring(2,8);
+  
+          document.write(a)
+      </script>
+       <h3>tostring()</h3>
+       <script>
+           var str = 50;
+           var b = srt.toString();
+   
+           document.write(b+20);
+       </script>
+     <h3>valueof()</h3>
+     <script>
+         var str = "Lorem ipsum dolor sit amet consectetur it adipisicing elit";
+         var a = str.valueOf();
+ 
+         document.write(a)
+     </script>
+</body>
+
+</html>
